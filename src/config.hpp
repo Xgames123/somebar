@@ -7,14 +7,14 @@
 constexpr bool topbar = true;
 
 constexpr int paddingX = 10;
-constexpr int paddingY = 1;
+constexpr int paddingY = 0;
 
 // See https://docs.gtk.org/Pango/type_func.FontDescription.from_string.html
-constexpr const char* font = "JetBrainsMonoNerdFont 30px";
+constexpr const char* font = "JetBrainsMonoNerdFont 20px";
 
 constexpr ColorScheme colorInactive = {Color(0xbb, 0xbb, 0xbb), Color(0x11, 0x11, 0x11)};
 constexpr ColorScheme colorActive = {Color(0x11, 0x11, 0x11), Color(0xff, 0xd5, 0xa0)};
-constexpr const char* termcmd[] = {"tofi", nullptr};
+constexpr const char* termcmd[] = {"tofi-menu", nullptr};
 
 static std::vector<std::string> tagNames = {
    "1", "2", "3",
